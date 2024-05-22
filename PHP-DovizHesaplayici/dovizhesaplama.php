@@ -12,7 +12,7 @@
 <?php
 // API'den döviz kurlarını alacak olan fonksiyon
 function getExchangeRate($from_currency, $to_currency){
-    $api_key = '7dff97be9f7e15045d40dc45 '; // Kullanacağınız API'nin API anahtarı
+    $api_key = 'YOUR_API_KEY'; // Kullanacağınız API'nin API anahtarı
     $url = "https://api.exchangerate-api.com/v4/latest/{$from_currency}";
 
     $curl = curl_init();
